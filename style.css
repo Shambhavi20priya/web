@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+.logo{
+  width:2px;
+  display: flex;
+  margin-left: 200px;
+  justify-content: center;
+  height: 60px;
+
+}
+ .log img{
+   width:13%;
+
+
+
+
+ }
+
+.navbar
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor:pointer;
+}
+
+
+.nav-list{
+  width:50%;
+ background-color: black;
+display: flex;
+align-items: center;
+height:5%;
+
+}
+.nav-list li{
+  list-style: none;
+  padding:26px 10px;
+
+
+}
+.nav-list li a{
+  text-decoration: none;
+  color: white;
+  padding: 700%;
+  height:5%
+
+
+}
+.nav-list li a:hover{
+
+  color:white;
+
+}
+.rightNav{
+  /* background-color: blue; */
+  width:50%;
+  text-align: right;
+
+}
+#search{
+  padding:5px;
+  font-size: 17px;
+  border: 2px solid grey;
+  border-radius: 9px;
+
+}
+.background{
+  background: rgba(0, 0, 0, 0.7)url('../images/arya1.jpg');
+  background-size: cover;
+  background-blend-mode: darken;
+
+}
+.firstSection{
+  height:100vh;
+}
+
+.box-main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Segeo UI',tahoma,Geneva,Verdana,sans-serif;
+  max-width:50%;
+  margin: auto;
+}
+.firstHalf{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-small
+{
+  font-size: 19px;
+  padding-right:200px;
+  padding-left: 200px;
+
+}
+.btn{
+  padding: 8px 20 px;
+  margin:7 px 0;
+  border:2px solid white;
+  border-radius: none;
+  color: black;
+  cursor: pointer;
+}
+.secRight{
+
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+
+  max-width: 80%;
+  margin:auto;
+}
+.paras{
+  padding: 0px 78px;
+
+}
+.imgFluid{
+  padding-left: 500px;
+  margin-top: 10px;
+
+}
